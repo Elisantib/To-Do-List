@@ -1,8 +1,8 @@
-function TodoItem() {
+function TodoItem(props) {
   return (
-    <li>
+    <li className="list-todoitemd">
+      <p>{ props.text }</p>
       <span>V</span>
-      <p>Aprender React todos los dias</p>
       <span>X</span>
     </li>
   );

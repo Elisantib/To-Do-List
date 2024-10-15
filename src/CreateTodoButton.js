@@ -1,7 +1,9 @@
+import './styles/CreateTodoButton.css'
+
 function CreateTodoButton() {
   return (
     <div>
-      <button>aceptar</button>
+      <button className="btn-effect">+</button>
     </div>
   );
 }

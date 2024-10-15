@@ -1,0 +1,27 @@
+.btn-effect {
+  margin-top: 60px;
+  margin-right: 40px;
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: #37205a; /* Color base del botón */
+  transition: transform 0.3s ease-in-out; /* Transición suave del efecto de pulsación */
+}
+
+.btn-effect:hover {
+  background-color: #8c7dce; /* Cambia el color al pasar el cursor sobre el botón */
+  }
+
+.btn-effect:active {
+  transform: scale(0.90); /* Reduce ligeramente el tamaño del botón cuando se hace clic */
+}
+  
+@media (max-width: 480px) {
+
+  .btn-effect {
+    width: 100%; /* El botón ocupa todo el ancho */
+    margin-right: 0; /* Quita cualquier margen derecho */
+  }
+}
